@@ -1,26 +1,15 @@
 {
-  "name": "react-learning",
-  "version": "1.0.0",
-  "description": "Describe react-learning here",
+  "name": "react-crud",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "nwb build-react-app",
-    "clean": "nwb clean-app",
-    "start": "nwb serve-react-app",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "react": "^16.8.6",
-    "react-bootstrap": "^1.0.0-beta.8",
-    "react-dom": "^16.8.6"
-  },
-  "devDependencies": {
-    "nwb": "0.23.x"
-  },
-  "author": "",
-  "license": "MIT",
-  "repository": ""
+    "next": "10.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
 }
